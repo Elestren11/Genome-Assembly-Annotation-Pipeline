@@ -1,0 +1,14 @@
+GenomeScope version 2.0
+input file = k19_histogram.txt
+output directory = genomescope_k19
+p = 2
+k = 19
+
+property                      min               max               
+Homozygous (aa)               99.9815%          100%              
+Heterozygous (ab)             0%                0.0184846%        
+Genome Haploid Length         37,097,671 bp     37,166,451 bp     
+Genome Repeat Length          3,751,738 bp      3,758,694 bp      
+Genome Unique Length          33,345,933 bp     33,407,757 bp     
+Model Fit                     93.8896%          99.5263%          
+Read Error Rate               0.204833%         0.204833%         

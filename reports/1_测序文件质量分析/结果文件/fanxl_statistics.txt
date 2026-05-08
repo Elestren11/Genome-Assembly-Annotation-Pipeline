@@ -1,0 +1,2 @@
+fanxl_gfold_up.txt	14662	14.513361
+fanxl_gfold_down.txt	8613	22.775307

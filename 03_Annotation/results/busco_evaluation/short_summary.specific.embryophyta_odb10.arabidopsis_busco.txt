@@ -1,0 +1,17 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: embryophyta_odb10 (Creation date: 2024-01-08, number of genomes: 50, number of BUSCOs: 1614)
+# Summarized benchmarking in BUSCO notation for file /d3/scratch/fanxl/genome4/augustus_prediction/arabidopsis_chr4_prediction.aa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:15.2%[S:14.5%,D:0.7%],F:0.7%,M:84.1%,n:1614	   
+	245	Complete BUSCOs (C)			   
+	234	Complete and single-copy BUSCOs (S)	   
+	11	Complete and duplicated BUSCOs (D)	   
+	12	Fragmented BUSCOs (F)			   
+	1357	Missing BUSCOs (M)			   
+	1614	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

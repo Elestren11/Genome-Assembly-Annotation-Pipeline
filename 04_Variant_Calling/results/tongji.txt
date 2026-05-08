@@ -1,0 +1,730 @@
+=== 参考基因组统计 ===
+参考基因组文件:
+-rw-rw-r-- 1 fanxinlan fanxinlan 4.9M Nov 10 11:24 raw_data/ref.fa
+序列数量:
+1
+总碱基数:
+5035299
+序列名称和长度:
+>CP016286.1 Rhizobium leguminosarum strain Vaf10 chromosome, complete genome
+5035299
+
+=== 测序数据统计 ===
+Reads文件大小:
+-rw-rw-r-- 1 fanxinlan fanxinlan 1.2M Nov 10 11:10 raw_data/1.fq
+-rw-rw-r-- 1 fanxinlan fanxinlan 1.2M Nov 10 11:10 raw_data/2.fq
+Reads数量:
+1.fq: 3932
+2.fq: 3932
+Reads长度示例:
+123
+
+=== 注释文件统计 ===
+GFF文件大小:
+-rw-rw-r-- 1 fanxinlan fanxinlan 2.0M Nov 10 11:11 raw_data/ref.gff3
+特征类型统计:
+   4821 CDS
+   4751 gene
+    135 pseudogene
+     65 exon
+     52 tRNA
+     12 binding_site
+      9 rRNA
+      3 sequence_feature
+      1 tmRNA
+      1 SRP_RNA
+      1 RNase_P_RNA
+      1 region
+      1 ncRNA
+      1 
+基因数量:
+9779
+=== Bowtie2比对统计 ===
+SAM文件大小:
+-rw-rw-r-- 1 fanxinlan fanxinlan 3.0M Nov 10 11:26 alignment.sam
+总reads比对统计:
+7864 + 0 in total (QC-passed reads + QC-failed reads)
+0 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+3212 + 0 mapped (40.84% : N/A)
+7864 + 0 paired in sequencing
+3932 + 0 read1
+3932 + 0 read2
+3066 + 0 properly paired (38.99% : N/A)
+3092 + 0 with itself and mate mapped
+120 + 0 singletons (1.53% : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+比对率统计:
+请提供bowtie2运行日志
+
+=== 详细比对质量 ===
+比对上的reads数: 3212
+未比对的reads数: 4652
+paired reads数: 7864
+properly paired数: 3066
+
+=== 基因组覆盖度初步统计 ===
+覆盖位点数: 7581
+总位点数: 7627
+覆盖度: 99.3969%
+=== 原始VCF文件统计 ===
+VCF文件大小:
+-rw-rw-r-- 1 fanxinlan fanxinlan 121K Nov 10 11:30 snps.raw.vcf
+总行数:
+878 snps.raw.vcf
+变异位点数(排除头文件):
+848
+
+=== 变异类型统计 ===
+SNP类型分布:
+    848 1/1
+
+=== 质量值分布 ===
+质量值统计:
+最小值: 4.38466
+最大值: 228.418
+平均值: 177.041
+低质量(<20): 43 (5.07075%)
+中等质量(20-99): 118 (13.9151%)
+高质量(>=100): 687 (81.0142%)
+
+=== 深度分布 ===
+深度统计:
+平均深度: 48.9658
+深度分布:
+DP=111: 2个位点
+DP=113: 2个位点
+DP=115: 5个位点
+DP=118: 2个位点
+DP=10: 32个位点
+DP=11: 10个位点
+DP=12: 16个位点
+DP=13: 3个位点
+DP=15: 14个位点
+DP=30: 11个位点
+DP=17: 2个位点
+DP=18: 3个位点
+DP=32: 9个位点
+DP=19: 9个位点
+DP=33: 7个位点
+DP=34: 3个位点
+DP=35: 8个位点
+DP=36: 4个位点
+DP=50: 4个位点
+DP=37: 5个位点
+DP=51: 4个位点
+DP=38: 7个位点
+DP=52: 2个位点
+DP=39: 10个位点
+DP=53: 17个位点
+DP=54: 10个位点
+DP=55: 16个位点
+DP=56: 12个位点
+DP=1: 3个位点
+DP=70: 11个位点
+DP=57: 6个位点
+DP=2: 15个位点
+DP=71: 5个位点
+DP=58: 7个位点
+DP=3: 17个位点
+DP=72: 7个位点
+DP=59: 5个位点
+DP=4: 16个位点
+DP=73: 9个位点
+DP=5: 7个位点
+DP=74: 4个位点
+DP=6: 15个位点
+DP=75: 4个位点
+DP=7: 9个位点
+DP=76: 9个位点
+DP=8: 18个位点
+DP=90: 8个位点
+DP=77: 3个位点
+DP=9: 20个位点
+DP=91: 12个位点
+DP=78: 6个位点
+DP=92: 8个位点
+DP=79: 4个位点
+DP=93: 8个位点
+DP=94: 9个位点
+DP=95: 5个位点
+DP=96: 3个位点
+DP=100: 9个位点
+DP=97: 5个位点
+DP=101: 9个位点
+DP=98: 2个位点
+DP=102: 4个位点
+DP=99: 6个位点
+DP=103: 5个位点
+DP=107: 7个位点
+DP=109: 4个位点
+DP=20: 14个位点
+DP=21: 15个位点
+DP=22: 9个位点
+DP=23: 6个位点
+DP=24: 5个位点
+DP=25: 6个位点
+DP=26: 15个位点
+DP=40: 10个位点
+DP=28: 6个位点
+DP=42: 8个位点
+DP=29: 6个位点
+DP=43: 6个位点
+DP=44: 4个位点
+DP=45: 9个位点
+DP=46: 5个位点
+DP=60: 8个位点
+DP=47: 5个位点
+DP=61: 12个位点
+DP=62: 24个位点
+DP=49: 5个位点
+DP=63: 11个位点
+DP=64: 13个位点
+DP=65: 3个位点
+DP=66: 15个位点
+DP=80: 11个位点
+DP=67: 11个位点
+DP=81: 6个位点
+DP=68: 5个位点
+DP=82: 8个位点
+DP=69: 6个位点
+DP=83: 4个位点
+DP=84: 10个位点
+DP=85: 3个位点
+DP=86: 3个位点
+DP=87: 7个位点
+DP=88: 5个位点
+DP=89: 5个位点
+
+=== 染色体分布 ===
+    848 CP016286.1
+=== 注释后VCF文件统计 ===
+文件大小:
+-rw-rw-r-- 1 fanxinlan fanxinlan 1.2M Nov 10 13:43 snps_annotated.vcf
+总行数:
+883 snps_annotated.vcf
+
+=== 注释信息统计 ===
+有注释的变异位点数:
+848
+总注释条目数:
+848
+
+=== 按影响程度统计 ===
+    606 LOW
+    169 MODERATE
+     71 MODIFIER
+      2 HIGH
+
+=== 按功能类别统计 ===
+    604 synonymous_variant
+    169 missense_variant
+     71 upstream_gene_variant
+      2 stop_gained
+      2 splice_region_variant&stop_retained_variant
+
+=== 基因级别统计 ===
+受影响基因数:
+11
+变异最多的前10个基因:
+    246 BA011_15885
+    147 BA011_15905
+    104 BA011_15880
+     83 BA011_15895
+     59 BA011_15915
+     55 BA011_15920
+     52 BA011_15900
+     45 BA011_15890
+     31 BA011_15925
+     17 BA011_15870
+
+=== 错义突变详细信息 ===
+错义突变数量:
+169
+错义突变的前10个基因:
+     35 BA011_15905
+     29 BA011_15915
+     29 BA011_15885
+     18 BA011_15895
+     17 BA011_15920
+     17 BA011_15890
+     12 BA011_15880
+     10 BA011_15900
+      2 BA011_15925
+=== BA011_15880基因详细分析 ===
+位置: CP016286.1:3220011, 突变: C→G, 质量: 12.6566, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1062G>C
+位置: CP016286.1:3220017, 突变: C→A, 质量: 12.6566, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1056G>T
+位置: CP016286.1:3220029, 突变: C→G, 质量: 12.6566, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1044G>C
+位置: CP016286.1:3220035, 突变: G→A, 质量: 28.4205, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1038C>T
+位置: CP016286.1:3220038, 突变: G→C, 质量: 28.4205, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1035C>G
+位置: CP016286.1:3220041, 突变: A→G, 质量: 28.4205, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1032T>C
+位置: CP016286.1:3220044, 突变: G→A, 质量: 28.4205, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1029C>T
+位置: CP016286.1:3220050, 突变: G→T, 质量: 79.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1023C>A
+位置: CP016286.1:3220053, 突变: C→T, 质量: 79.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1020G>A
+位置: CP016286.1:3220062, 突变: A→G, 质量: 94.4151, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1011T>C
+位置: CP016286.1:3220065, 突变: C→G, 质量: 94.4151, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1008G>C
+位置: CP016286.1:3220068, 突变: A→G, 质量: 94.4151, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1005T>C
+位置: CP016286.1:3220077, 突变: G→A, 质量: 99.4152, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.996C>T
+位置: CP016286.1:3220080, 突变: G→C, 质量: 99.4152, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.993C>G
+位置: CP016286.1:3220089, 突变: C→T, 质量: 119.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.984G>A
+位置: CP016286.1:3220095, 突变: G→T, 质量: 129.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.978C>A
+位置: CP016286.1:3220107, 突变: A→G, 质量: 139.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.966T>C
+位置: CP016286.1:3220128, 突变: A→G, 质量: 155.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.945T>C
+位置: CP016286.1:3220131, 突变: G→C, 质量: 155.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.942C>G
+位置: CP016286.1:3220134, 突变: A→G, 质量: 155.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.939T>C
+位置: CP016286.1:3220143, 突变: A→G, 质量: 155.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.930T>C
+位置: CP016286.1:3220146, 突变: A→G, 质量: 155.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.927T>C
+位置: CP016286.1:3220150, 突变: T→A, 质量: 152.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.923A>T
+位置: CP016286.1:3220155, 突变: C→G, 质量: 152.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.918G>C
+位置: CP016286.1:3220158, 突变: G→C, 质量: 152.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.915C>G
+位置: CP016286.1:3220159, 突变: G→A, 质量: 152.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.914C>T
+位置: CP016286.1:3220161, 突变: A→C, 质量: 152.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.912T>G
+位置: CP016286.1:3220177, 突变: T→C, 质量: 178.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.896A>G
+位置: CP016286.1:3220181, 突变: C→G, 质量: 191.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.892G>C
+位置: CP016286.1:3220182, 突变: G→A, 质量: 187.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.891C>T
+位置: CP016286.1:3220188, 突变: A→C, 质量: 170.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.885T>G
+位置: CP016286.1:3220194, 突变: G→A, 质量: 192.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.879C>T
+位置: CP016286.1:3220206, 突变: G→A, 质量: 221.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.867C>T
+位置: CP016286.1:3220218, 突变: C→G, 质量: 218.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.855G>C
+位置: CP016286.1:3220221, 突变: A→G, 质量: 219.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.852T>C
+位置: CP016286.1:3220224, 突变: G→A, 质量: 220.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.849C>T
+位置: CP016286.1:3220227, 突变: A→G, 质量: 220.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.846T>C
+位置: CP016286.1:3220230, 突变: A→G, 质量: 217.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.843T>C
+位置: CP016286.1:3220231, 突变: T→C, 质量: 220.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.842A>G
+位置: CP016286.1:3220232, 突变: T→C, 质量: 220.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.841A>G
+位置: CP016286.1:3220241, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.832C>T
+位置: CP016286.1:3220257, 突变: C→A, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.816G>T
+位置: CP016286.1:3220258, 突变: C→T, 质量: 225.417, 影响: HIGH, 效应: stop_gained, 氨基酸: c.815G>A
+位置: CP016286.1:3220263, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.810G>A
+位置: CP016286.1:3220266, 突变: G→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.807C>A
+位置: CP016286.1:3220272, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.801C>G
+位置: CP016286.1:3220301, 突变: T→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.772A>G
+位置: CP016286.1:3220302, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.771G>C
+位置: CP016286.1:3220304, 突变: A→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.769T>G
+位置: CP016286.1:3220308, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.765C>T
+位置: CP016286.1:3220335, 突变: C→G, 质量: 225.422, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.738G>C
+位置: CP016286.1:3220338, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.735T>C
+位置: CP016286.1:3220365, 突变: C→G, 质量: 228.38, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.708G>C
+位置: CP016286.1:3220374, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.699G>A
+位置: CP016286.1:3220386, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.687A>G
+位置: CP016286.1:3220392, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.681G>T
+位置: CP016286.1:3220401, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.672C>G
+位置: CP016286.1:3220410, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.663C>G
+位置: CP016286.1:3220413, 突变: G→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.660C>A
+位置: CP016286.1:3220422, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.651G>C
+位置: CP016286.1:3220437, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.636C>T
+位置: CP016286.1:3220451, 突变: T→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.622A>G
+位置: CP016286.1:3220458, 突变: A→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.615T>G
+位置: CP016286.1:3220467, 突变: C→G, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.606G>C
+位置: CP016286.1:3220470, 突变: G→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.603C>A
+位置: CP016286.1:3220476, 突变: G→A, 质量: 210.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.597C>T
+位置: CP016286.1:3220485, 突变: G→A, 质量: 182.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.588C>T
+位置: CP016286.1:3220488, 突变: C→T, 质量: 143.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.585G>A
+位置: CP016286.1:3220489, 突变: A→G, 质量: 147.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.584T>C
+位置: CP016286.1:3220491, 突变: C→G, 质量: 148.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.582G>C
+位置: CP016286.1:3220509, 突变: G→T, 质量: 149.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.564C>A
+位置: CP016286.1:3220515, 突变: T→G, 质量: 150.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.558A>C
+位置: CP016286.1:3220524, 突变: A→G, 质量: 147.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.549T>C
+位置: CP016286.1:3220539, 突变: C→T, 质量: 132.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.534G>A
+位置: CP016286.1:3220542, 突变: C→G, 质量: 134.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.531G>C
+位置: CP016286.1:3220545, 突变: A→G, 质量: 134.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.528T>C
+位置: CP016286.1:3220551, 突变: C→A, 质量: 125.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.522G>T
+位置: CP016286.1:3220557, 突变: C→G, 质量: 126.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.516G>C
+位置: CP016286.1:3220560, 突变: G→A, 质量: 123.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.513C>T
+位置: CP016286.1:3220575, 突变: G→A, 质量: 120.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.498C>T
+位置: CP016286.1:3220584, 突变: A→G, 质量: 97.4152, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.489T>C
+位置: CP016286.1:3220587, 突变: T→C, 质量: 99.4152, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.486A>G
+位置: CP016286.1:3220599, 突变: G→A, 质量: 95.4151, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.474C>T
+位置: CP016286.1:3220605, 突变: C→A, 质量: 96.4152, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.468G>T
+位置: CP016286.1:3220611, 突变: G→A, 质量: 96.4152, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.462C>T
+位置: CP016286.1:3220629, 突变: G→A, 质量: 47.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.444C>T
+位置: CP016286.1:3220641, 突变: G→A, 质量: 47.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.432C>T
+位置: CP016286.1:3220644, 突变: T→C, 质量: 47.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.429A>G
+位置: CP016286.1:3220650, 突变: A→C, 质量: 47.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.423T>G
+位置: CP016286.1:3221386, 突变: A→T, 质量: 34.4159, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1860T>A
+位置: CP016286.1:3221389, 突变: A→C, 质量: 34.4159, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1857T>G
+位置: CP016286.1:3221395, 突变: G→C, 质量: 34.4159, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1851C>G
+位置: CP016286.1:3221398, 突变: G→A, 质量: 34.4159, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1848C>T
+位置: CP016286.1:3221406, 突变: G→T, 质量: 50.4146, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1840C>A
+位置: CP016286.1:3221410, 突变: C→T, 质量: 50.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1836G>A
+位置: CP016286.1:3221412, 突变: A→C, 质量: 50.4146, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1834T>G
+位置: CP016286.1:3221416, 突变: A→G, 质量: 50.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1830T>C
+位置: CP016286.1:3221419, 突变: G→A, 质量: 50.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1827C>T
+位置: CP016286.1:3221428, 突变: G→A, 质量: 67.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1818C>T
+位置: CP016286.1:3221431, 突变: G→C, 质量: 67.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1815C>G
+位置: CP016286.1:3221434, 突变: A→C, 质量: 67.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1812T>G
+位置: CP016286.1:3221440, 突变: T→C, 质量: 76.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1806A>G
+位置: CP016286.1:3221449, 突变: G→A, 质量: 88.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1797C>T
+位置: CP016286.1:3221470, 突变: G→T, 质量: 133.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1776C>A
+位置: CP016286.1:3221479, 突变: T→C, 质量: 144.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1767A>G
+位置: CP016286.1:3221497, 突变: A→G, 质量: 137.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1749T>C
+位置: CP016286.1:3221508, 突变: G→T, 质量: 143.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1738C>A
+位置: CP016286.1:3221510, 突变: A→G, 质量: 139.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1736T>C
+位置: CP016286.1:3221512, 突变: G→C, 质量: 131.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1734C>G
+位置: CP016286.1:3221518, 突变: T→C, 质量: 136.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1728A>G
+位置: CP016286.1:3221527, 突变: C→G, 质量: 108.415, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1719G>C
+位置: CP016286.1:3221529, 突变: T→A, 质量: 118.415, 影响: HIGH, 效应: stop_gained, 氨基酸: c.1717A>T
+位置: CP016286.1:3221530, 突变: T→A, 质量: 118.415, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1716A>T
+位置: CP016286.1:3221533, 突变: C→G, 质量: 117.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1713G>C
+位置: CP016286.1:3221536, 突变: C→G, 质量: 108.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1710G>C
+位置: CP016286.1:3221539, 突变: G→A, 质量: 118.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1707C>T
+位置: CP016286.1:3221553, 突变: G→C, 质量: 106.415, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1693C>G
+位置: CP016286.1:3221554, 突变: C→G, 质量: 102.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1692G>C
+位置: CP016286.1:3221563, 突变: T→C, 质量: 108.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1683A>G
+位置: CP016286.1:3221566, 突变: A→G, 质量: 102.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1680T>C
+位置: CP016286.1:3221578, 突变: G→C, 质量: 92.4151, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1668C>G
+位置: CP016286.1:3221587, 突变: A→G, 质量: 92.4151, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1659T>C
+位置: CP016286.1:3221597, 突变: T→G, 质量: 79.4149, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1649A>C
+位置: CP016286.1:3221602, 突变: C→G, 质量: 78.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1644G>C
+位置: CP016286.1:3221608, 突变: T→C, 质量: 78.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1638A>G
+位置: CP016286.1:3221611, 突变: T→C, 质量: 59.4147, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1635A>G
+位置: CP016286.1:3221614, 突变: C→G, 质量: 59.4147, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1632G>C
+位置: CP016286.1:3221617, 突变: A→G, 质量: 59.4147, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1629T>C
+位置: CP016286.1:3221620, 突变: A→G, 质量: 59.4147, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1626T>C
+位置: CP016286.1:3221626, 突变: C→T, 质量: 144.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1620G>A
+位置: CP016286.1:3221635, 突变: A→C, 质量: 136.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1611T>G
+位置: CP016286.1:3221641, 突变: G→A, 质量: 145.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1605C>T
+位置: CP016286.1:3221644, 突变: G→A, 质量: 144.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1602C>T
+位置: CP016286.1:3221656, 突变: T→C, 质量: 186.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1590A>G
+位置: CP016286.1:3221662, 突变: C→T, 质量: 190.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1584G>A
+位置: CP016286.1:3221665, 突变: G→A, 质量: 205.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1581C>T
+位置: CP016286.1:3221680, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1566C>G
+位置: CP016286.1:3221695, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1551T>C
+位置: CP016286.1:3221698, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1548C>G
+位置: CP016286.1:3221701, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1545T>C
+位置: CP016286.1:3221713, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1533G>C
+位置: CP016286.1:3221731, 突变: A→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1515T>A
+位置: CP016286.1:3221737, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1509G>C
+位置: CP016286.1:3221752, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1494C>T
+位置: CP016286.1:3221761, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1485C>G
+位置: CP016286.1:3221770, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1476T>C
+位置: CP016286.1:3221794, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1452C>G
+位置: CP016286.1:3221803, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1443C>G
+位置: CP016286.1:3221806, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1440T>C
+位置: CP016286.1:3221808, 突变: C→T, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1438G>A
+位置: CP016286.1:3221809, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1437C>T
+位置: CP016286.1:3221828, 突变: C→A, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1418G>T
+位置: CP016286.1:3221829, 突变: A→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1417T>G
+位置: CP016286.1:3221836, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1410A>G
+位置: CP016286.1:3221839, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1407C>G
+位置: CP016286.1:3221863, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1383C>T
+位置: CP016286.1:3221881, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1365T>C
+位置: CP016286.1:3221896, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1350C>T
+位置: CP016286.1:3221899, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1347C>T
+位置: CP016286.1:3221902, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1344G>T
+位置: CP016286.1:3221917, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1329T>C
+位置: CP016286.1:3221923, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1323G>C
+位置: CP016286.1:3221926, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1320G>A
+位置: CP016286.1:3221937, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1309C>T
+位置: CP016286.1:3221938, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1308G>C
+位置: CP016286.1:3221947, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1299C>T
+位置: CP016286.1:3221950, 突变: A→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1296T>G
+位置: CP016286.1:3221952, 突变: C→G, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1294G>C
+位置: CP016286.1:3221953, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1293C>G
+位置: CP016286.1:3221956, 突变: A→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1290T>G
+位置: CP016286.1:3221968, 突变: C→G, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1278G>C
+位置: CP016286.1:3221977, 突变: T→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1269A>C
+位置: CP016286.1:3221989, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1257C>T
+位置: CP016286.1:3221992, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1254T>C
+位置: CP016286.1:3221995, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1251C>T
+位置: CP016286.1:3222028, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1218C>T
+位置: CP016286.1:3222031, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1215T>C
+位置: CP016286.1:3222070, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1176G>A
+位置: CP016286.1:3222080, 突变: T→G, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1166A>C
+位置: CP016286.1:3222081, 突变: G→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1165C>G
+位置: CP016286.1:3222088, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1158G>C
+位置: CP016286.1:3222103, 突变: G→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1143C>A
+位置: CP016286.1:3222109, 突变: G→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1137C>A
+位置: CP016286.1:3222118, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1128C>G
+位置: CP016286.1:3222145, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1101G>C
+位置: CP016286.1:3222148, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1098T>C
+位置: CP016286.1:3222154, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1092C>T
+位置: CP016286.1:3222163, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1083T>C
+位置: CP016286.1:3222181, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1065C>G
+位置: CP016286.1:3222184, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1062C>T
+位置: CP016286.1:3222193, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1053T>C
+位置: CP016286.1:3222196, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1050T>C
+位置: CP016286.1:3222229, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1017G>T
+位置: CP016286.1:3222238, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1008T>C
+位置: CP016286.1:3222262, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.984C>T
+位置: CP016286.1:3222271, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.975G>T
+位置: CP016286.1:3222274, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.972G>C
+位置: CP016286.1:3222283, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.963T>C
+位置: CP016286.1:3222292, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.954T>C
+位置: CP016286.1:3222298, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.948C>G
+位置: CP016286.1:3222316, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.930C>T
+位置: CP016286.1:3222319, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.927T>C
+位置: CP016286.1:3222331, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.915C>T
+位置: CP016286.1:3222340, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.906C>G
+位置: CP016286.1:3222355, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.891G>C
+位置: CP016286.1:3222357, 突变: C→T, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.889G>A
+位置: CP016286.1:3222364, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.882T>C
+位置: CP016286.1:3222367, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.879G>C
+位置: CP016286.1:3222370, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.876G>A
+位置: CP016286.1:3222376, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.870C>T
+位置: CP016286.1:3222385, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.861A>G
+位置: CP016286.1:3222418, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.828A>G
+位置: CP016286.1:3222424, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.822T>C
+位置: CP016286.1:3222427, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.819T>C
+位置: CP016286.1:3222436, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.810C>G
+位置: CP016286.1:3222448, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.798C>T
+位置: CP016286.1:3222454, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.792C>T
+位置: CP016286.1:3222463, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.783C>T
+位置: CP016286.1:3222466, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.780T>C
+位置: CP016286.1:3222478, 突变: A→G, 质量: 228.376, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.768T>C
+位置: CP016286.1:3222508, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.738G>C
+位置: CP016286.1:3222514, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.732G>A
+位置: CP016286.1:3222523, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.723T>C
+位置: CP016286.1:3222529, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.717G>C
+位置: CP016286.1:3222547, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.699C>T
+位置: CP016286.1:3222562, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.684C>T
+位置: CP016286.1:3222574, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.672C>T
+位置: CP016286.1:3222577, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.669G>C
+位置: CP016286.1:3222580, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.666T>C
+位置: CP016286.1:3222583, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.663C>G
+位置: CP016286.1:3222586, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.660T>C
+位置: CP016286.1:3222592, 突变: G→C, 质量: 225.421, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.654C>G
+位置: CP016286.1:3222595, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.651G>T
+位置: CP016286.1:3222643, 突变: A→G, 质量: 225.421, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.603T>C
+位置: CP016286.1:3222649, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.597T>C
+位置: CP016286.1:3222655, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.591C>T
+位置: CP016286.1:3222658, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.588C>G
+位置: CP016286.1:3222661, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.585G>T
+位置: CP016286.1:3222664, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.582G>T
+位置: CP016286.1:3222676, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.570C>T
+位置: CP016286.1:3222712, 突变: A→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.534T>G
+位置: CP016286.1:3222727, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.519C>T
+位置: CP016286.1:3222736, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.510C>T
+位置: CP016286.1:3222751, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.495G>A
+位置: CP016286.1:3222757, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.489C>G
+位置: CP016286.1:3222760, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.486T>C
+位置: CP016286.1:3222763, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.483C>T
+位置: CP016286.1:3222766, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.480T>C
+位置: CP016286.1:3222772, 突变: T→G, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.474A>C
+位置: CP016286.1:3222778, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.468T>C
+位置: CP016286.1:3222784, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.462C>T
+位置: CP016286.1:3222787, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.459C>T
+位置: CP016286.1:3222790, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.456T>C
+位置: CP016286.1:3222799, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.447C>G
+位置: CP016286.1:3222802, 突变: G→C, 质量: 228.371, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.444C>G
+位置: CP016286.1:3222804, 突变: G→A, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.442C>T
+位置: CP016286.1:3222805, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.441G>T
+位置: CP016286.1:3222826, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.420C>T
+位置: CP016286.1:3222829, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.417G>C
+位置: CP016286.1:3222838, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.408G>T
+位置: CP016286.1:3222844, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.402A>G
+位置: CP016286.1:3222862, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.384G>C
+位置: CP016286.1:3222889, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.357T>C
+位置: CP016286.1:3222895, 突变: A→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.351T>G
+位置: CP016286.1:3222901, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.345G>C
+位置: CP016286.1:3222906, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.340T>C
+位置: CP016286.1:3222907, 突变: A→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.339T>G
+位置: CP016286.1:3222909, 突变: G→A, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.337C>T
+位置: CP016286.1:3222925, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.321C>G
+位置: CP016286.1:3222931, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.315T>C
+位置: CP016286.1:3222934, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.312G>C
+位置: CP016286.1:3222937, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.309C>T
+位置: CP016286.1:3222940, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.306C>T
+位置: CP016286.1:3222946, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.300G>C
+位置: CP016286.1:3222952, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.294T>C
+位置: CP016286.1:3222976, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.270A>G
+位置: CP016286.1:3222979, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.267G>C
+位置: CP016286.1:3222981, 突变: A→T, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.265T>A
+位置: CP016286.1:3222999, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.247T>C
+位置: CP016286.1:3223001, 突变: C→T, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.245G>A
+位置: CP016286.1:3223004, 突变: T→G, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.242A>C
+位置: CP016286.1:3223005, 突变: C→A, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.241G>T
+位置: CP016286.1:3223006, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.240C>T
+位置: CP016286.1:3223018, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.228G>T
+位置: CP016286.1:3223042, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.204T>C
+位置: CP016286.1:3223057, 突变: T→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.189A>C
+位置: CP016286.1:3223065, 突变: G→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.181C>G
+位置: CP016286.1:3223066, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.180T>C
+位置: CP016286.1:3223072, 突变: G→A, 质量: 225.422, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.174C>T
+位置: CP016286.1:3223081, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.165G>C
+位置: CP016286.1:3223087, 突变: G→T, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.159C>A
+位置: CP016286.1:3223093, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.153G>C
+位置: CP016286.1:3223108, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.138C>G
+位置: CP016286.1:3223111, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.135G>A
+位置: CP016286.1:3223114, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.132T>C
+位置: CP016286.1:3223120, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.126T>C
+位置: CP016286.1:3223129, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.117T>C
+位置: CP016286.1:3223138, 突变: T→A, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.108A>T
+位置: CP016286.1:3223144, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.102C>G
+位置: CP016286.1:3223149, 突变: C→T, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.97G>A
+位置: CP016286.1:3223150, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.96G>C
+位置: CP016286.1:3223153, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.93A>G
+位置: CP016286.1:3223164, 突变: C→A, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.82G>T
+位置: CP016286.1:3223171, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.75T>C
+位置: CP016286.1:3223183, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.63T>C
+位置: CP016286.1:3223189, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.57C>T
+位置: CP016286.1:3223207, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.39C>T
+位置: CP016286.1:3223210, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.36G>A
+位置: CP016286.1:3223234, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.12C>T
+位置: CP016286.1:3223246, 突变: T→C, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4381A>G
+位置: CP016286.1:3223266, 突变: A→G, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4401T>C
+位置: CP016286.1:3223267, 突变: G→A, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4402C>T
+位置: CP016286.1:3223292, 突变: C→T, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4427G>A
+位置: CP016286.1:3223294, 突变: T→C, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4429A>G
+位置: CP016286.1:3223295, 突变: T→C, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4430A>G
+位置: CP016286.1:3223307, 突变: G→A, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4442C>T
+位置: CP016286.1:3223308, 突变: T→G, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4443A>C
+位置: CP016286.1:3223315, 突变: G→A, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4450C>T
+位置: CP016286.1:3223316, 突变: T→G, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4451A>C
+位置: CP016286.1:3223319, 突变: G→T, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4454C>A
+位置: CP016286.1:3223331, 突变: G→A, 质量: 197.416, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4466C>T
+位置: CP016286.1:3223333, 突变: T→A, 质量: 193.416, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4468A>T
+位置: CP016286.1:3223336, 突变: C→G, 质量: 197.416, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4471G>C
+位置: CP016286.1:3223337, 突变: C→G, 质量: 197.416, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4472G>C
+位置: CP016286.1:3223339, 突变: A→C, 质量: 197.416, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4474T>G
+位置: CP016286.1:3223340, 突变: A→C, 质量: 197.416, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4475T>G
+位置: CP016286.1:3223343, 突变: C→T, 质量: 206.417, 影响: LOW, 效应: splice_region_variant&stop_retained_variant, 氨基酸: c.1475G>A
+位置: CP016286.1:3223414, 突变: C→G, 质量: 9.88514, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1404G>C
+位置: CP016286.1:3223417, 突变: A→G, 质量: 10.7923, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1401T>C
+位置: CP016286.1:3223419, 突变: T→C, 质量: 10.7923, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1399A>G
+位置: CP016286.1:3223423, 突变: A→G, 质量: 126.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1395T>C
+位置: CP016286.1:3223435, 突变: A→G, 质量: 128.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1383T>C
+位置: CP016286.1:3223450, 突变: G→A, 质量: 123.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1368C>T
+位置: CP016286.1:3223460, 突变: G→A, 质量: 128.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1358C>T
+位置: CP016286.1:3223462, 突变: T→C, 质量: 128.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1356A>G
+位置: CP016286.1:3223614, 突变: A→G, 质量: 24.4299, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1204T>C
+位置: CP016286.1:3223618, 突变: A→G, 质量: 24.4299, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1200T>C
+位置: CP016286.1:3223619, 突变: T→C, 质量: 24.4299, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1199A>G
+位置: CP016286.1:3223632, 突变: A→G, 质量: 10.7923, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.1186T>C
+位置: CP016286.1:3223633, 突变: C→G, 质量: 10.7923, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.1185G>C
+位置: CP016286.1:3224584, 突变: C→A, 质量: 7.30814, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.234G>T
+位置: CP016286.1:3224587, 突变: T→G, 质量: 7.30814, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.231A>C
+位置: CP016286.1:3224593, 突变: T→C, 质量: 10.7923, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.225A>G
+位置: CP016286.1:3224595, 突变: C→G, 质量: 10.7923, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.223G>C
+位置: CP016286.1:3224596, 突变: A→G, 质量: 10.7923, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.222T>C
+位置: CP016286.1:3224602, 突变: C→T, 质量: 43.4147, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.216G>A
+位置: CP016286.1:3224605, 突变: G→A, 质量: 72.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.213C>T
+位置: CP016286.1:3224611, 突变: G→T, 质量: 72.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.207C>A
+位置: CP016286.1:3224614, 突变: G→T, 质量: 72.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.204C>A
+位置: CP016286.1:3224615, 突变: C→T, 质量: 72.4148, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.203G>A
+位置: CP016286.1:3224620, 突变: G→C, 质量: 70.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.198C>G
+位置: CP016286.1:3224625, 突变: A→T, 质量: 100.415, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.193T>A
+位置: CP016286.1:3224641, 突变: C→G, 质量: 105.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.177G>C
+位置: CP016286.1:3224644, 突变: A→G, 质量: 105.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.174T>C
+位置: CP016286.1:3224647, 突变: G→A, 质量: 105.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.171C>T
+位置: CP016286.1:3224650, 突变: A→G, 质量: 105.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.168T>C
+位置: CP016286.1:3224666, 突变: T→C, 质量: 54.4146, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.152A>G
+位置: CP016286.1:3224671, 突变: C→G, 质量: 62.4147, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.147G>C
+位置: CP016286.1:3224682, 突变: C→G, 质量: 152.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.136G>C
+位置: CP016286.1:3224683, 突变: G→C, 质量: 152.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.135C>G
+位置: CP016286.1:3224686, 突变: T→A, 质量: 152.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.132A>T
+位置: CP016286.1:3224689, 突变: A→C, 质量: 152.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.129T>G
+位置: CP016286.1:3224690, 突变: T→G, 质量: 152.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.128A>C
+位置: CP016286.1:3224691, 突变: C→A, 质量: 152.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.127G>T
+位置: CP016286.1:3224696, 突变: A→G, 质量: 154.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.122T>C
+位置: CP016286.1:3224697, 突变: G→A, 质量: 154.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.121C>T
+位置: CP016286.1:3224728, 突变: T→C, 质量: 179.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.90A>G
+位置: CP016286.1:3224731, 突变: T→A, 质量: 180.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.87A>T
+位置: CP016286.1:3224751, 突变: C→A, 质量: 9.88514, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.67G>T
+位置: CP016286.1:3224826, 突变: A→G, 质量: 216.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-3754T>C
+位置: CP016286.1:3224830, 突变: C→T, 质量: 222.417, 影响: LOW, 效应: splice_region_variant&stop_retained_variant, 氨基酸: c.986G>A
+位置: CP016286.1:3224841, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.975C>T
+位置: CP016286.1:3224866, 突变: C→G, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.950G>C
+位置: CP016286.1:3224877, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.939T>C
+位置: CP016286.1:3224883, 突变: G→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.933C>A
+位置: CP016286.1:3224889, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.927G>C
+位置: CP016286.1:3224895, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.921T>C
+位置: CP016286.1:3224910, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.906C>G
+位置: CP016286.1:3224912, 突变: G→T, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.904C>A
+位置: CP016286.1:3224913, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.903G>C
+位置: CP016286.1:3224919, 突变: T→C, 质量: 225.422, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.897A>G
+位置: CP016286.1:3224928, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.888G>T
+位置: CP016286.1:3224931, 突变: C→T, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.885G>A
+位置: CP016286.1:3224946, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.870C>G
+位置: CP016286.1:3224949, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.867C>T
+位置: CP016286.1:3224975, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.841C>T
+位置: CP016286.1:3224982, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.834G>T
+位置: CP016286.1:3224997, 突变: T→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.819A>C
+位置: CP016286.1:3224998, 突变: G→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.818C>G
+位置: CP016286.1:3225006, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.810A>G
+位置: CP016286.1:3225011, 突变: G→T, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.805C>A
+位置: CP016286.1:3225012, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.804T>C
+位置: CP016286.1:3225020, 突变: T→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.796A>G
+位置: CP016286.1:3225021, 突变: G→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.795C>G
+位置: CP016286.1:3225024, 突变: G→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.792C>T
+位置: CP016286.1:3225036, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.780G>C
+位置: CP016286.1:3225038, 突变: A→C, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.778T>G
+位置: CP016286.1:3225039, 突变: C→A, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.777G>T
+位置: CP016286.1:3225042, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.774T>C
+位置: CP016286.1:3225052, 突变: C→G, 质量: 218.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.764G>C
+位置: CP016286.1:3225069, 突变: T→C, 质量: 189.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.747A>G
+位置: CP016286.1:3225084, 突变: A→G, 质量: 128.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.732T>C
+位置: CP016286.1:3225087, 突变: G→T, 质量: 132.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.729C>A
+位置: CP016286.1:3225093, 突变: C→G, 质量: 73.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.723G>C
+位置: CP016286.1:3225096, 突变: C→G, 质量: 72.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.720G>C
+位置: CP016286.1:3225099, 突变: C→T, 质量: 72.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.717G>A
+位置: CP016286.1:3225102, 突变: C→T, 质量: 72.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.714G>A
+位置: CP016286.1:3225105, 突变: A→G, 质量: 73.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.711T>C
+位置: CP016286.1:3225110, 突变: T→C, 质量: 73.4149, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.706A>G
+位置: CP016286.1:3225111, 突变: C→A, 质量: 73.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.705G>T
+位置: CP016286.1:3225117, 突变: G→C, 质量: 72.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.699C>G
+位置: CP016286.1:3225118, 突变: C→T, 质量: 73.4149, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.698G>A
+位置: CP016286.1:3225120, 突变: G→C, 质量: 73.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.696C>G
+位置: CP016286.1:3225123, 突变: G→A, 质量: 73.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.693C>T
+位置: CP016286.1:3225126, 突变: A→G, 质量: 73.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.690T>C
+位置: CP016286.1:3225130, 突变: T→C, 质量: 76.4149, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.686A>G
+位置: CP016286.1:3225138, 突变: T→C, 质量: 76.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.678A>G
+位置: CP016286.1:3225144, 突变: T→C, 质量: 76.4149, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.672A>G
+位置: CP016286.1:3225153, 突变: A→G, 质量: 57.4147, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.663T>C
+位置: CP016286.1:3225154, 突变: C→G, 质量: 57.4147, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.662G>C
+位置: CP016286.1:3225155, 突变: T→A, 质量: 57.4147, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.661A>T
+位置: CP016286.1:3225159, 突变: A→G, 质量: 68.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.657T>C
+位置: CP016286.1:3225168, 突变: T→G, 质量: 68.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.648A>C
+位置: CP016286.1:3225180, 突变: A→G, 质量: 54.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.636T>C
+位置: CP016286.1:3225186, 突变: G→A, 质量: 54.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.630C>T
+位置: CP016286.1:3225195, 突变: C→T, 质量: 54.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.621G>A
+位置: CP016286.1:3225198, 突变: A→G, 质量: 54.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.618T>C
+位置: CP016286.1:3225201, 突变: G→C, 质量: 54.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.615C>G
+位置: CP016286.1:3225204, 突变: C→T, 质量: 54.4146, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.612G>A
+位置: CP016286.1:3225219, 突变: A→C, 质量: 36.4154, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.597T>G
+位置: CP016286.1:3225222, 突变: G→C, 质量: 35.4156, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.594C>G
+位置: CP016286.1:3225519, 突变: G→C, 质量: 41.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.297C>G
+位置: CP016286.1:3225522, 突变: C→T, 质量: 41.4148, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.294G>A
+位置: CP016286.1:3225524, 突变: G→C, 质量: 41.4148, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.292C>G
+位置: CP016286.1:3225540, 突变: A→G, 质量: 91.4151, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.276T>C
+位置: CP016286.1:3225553, 突变: T→G, 质量: 90.4151, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.263A>C
+位置: CP016286.1:3225554, 突变: G→C, 质量: 90.4151, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.262C>G
+位置: CP016286.1:3225567, 突变: C→T, 质量: 113.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.249G>A
+位置: CP016286.1:3225576, 突变: C→T, 质量: 104.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.240G>A
+位置: CP016286.1:3225582, 突变: A→G, 质量: 103.415, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.234T>C
+位置: CP016286.1:3225588, 突变: A→G, 质量: 126.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.228T>C
+位置: CP016286.1:3225606, 突变: C→G, 质量: 153.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.210G>C
+位置: CP016286.1:3225621, 突变: C→G, 质量: 162.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.195G>C
+位置: CP016286.1:3225624, 突变: C→A, 质量: 160.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.192G>T
+位置: CP016286.1:3225645, 突变: C→G, 质量: 162.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.171G>C
+位置: CP016286.1:3225651, 突变: G→C, 质量: 162.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.165C>G
+位置: CP016286.1:3225654, 突变: C→T, 质量: 154.416, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.162G>A
+位置: CP016286.1:3225675, 突变: C→G, 质量: 160.416, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.141G>C
+位置: CP016286.1:3225795, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.21A>G
+位置: CP016286.1:3225798, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.18G>T
+位置: CP016286.1:3225806, 突变: A→G, 质量: 225.417, 影响: MODERATE, 效应: missense_variant, 氨基酸: c.10T>C
+位置: CP016286.1:3225819, 突变: T→G, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4747A>C
+位置: CP016286.1:3225820, 突变: A→T, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4748T>A
+位置: CP016286.1:3225845, 突变: C→T, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4773G>A
+位置: CP016286.1:3225846, 突变: A→G, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4774T>C
+位置: CP016286.1:3225863, 突变: A→G, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4791T>C
+位置: CP016286.1:3225880, 突变: G→A, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4808C>T
+位置: CP016286.1:3225915, 突变: G→T, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4843C>A
+位置: CP016286.1:3225936, 突变: C→G, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4864G>C
+位置: CP016286.1:3225937, 突变: T→C, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4865A>G
+位置: CP016286.1:3225940, 突变: G→A, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4868C>T
+位置: CP016286.1:3225941, 突变: C→G, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4869G>C
+位置: CP016286.1:3225943, 突变: G→A, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4871C>T
+位置: CP016286.1:3225954, 突变: G→C, 质量: 205.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4882C>G
+位置: CP016286.1:3225978, 突变: A→C, 质量: 225.417, 影响: MODIFIER, 效应: upstream_gene_variant, 氨基酸: c.-4906T>G
+位置: CP016286.1:3225997, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.516T>C
+位置: CP016286.1:3226000, 突变: C→A, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.513G>T
+位置: CP016286.1:3226006, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.507T>C
+位置: CP016286.1:3226009, 突变: C→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.504G>C
+位置: CP016286.1:3226024, 突变: T→C, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.489A>G
+位置: CP016286.1:3226039, 突变: A→G, 质量: 225.417, 影响: LOW, 效应: synonymous_variant, 氨基酸: c.474T>C
+
+=== BA011_15880基因注释信息 ===
+CP016286.1	Genbank	gene	3219720	3221072	.	-	.	ID=gene3174;Name=BA011_15880;gbkey=Gene;gene_biotype=protein_coding;locus_tag=BA011_15880

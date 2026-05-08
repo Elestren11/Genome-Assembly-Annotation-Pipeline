@@ -1,0 +1,14 @@
+GenomeScope version 2.0
+input file = k21_histogram.txt
+output directory = genomescope_k21
+p = 2
+k = 21
+
+property                      min               max               
+Homozygous (aa)               99.9918%          100%              
+Heterozygous (ab)             0%                0.00819216%       
+Genome Haploid Length         37,111,429 bp     37,158,298 bp     
+Genome Repeat Length          3,349,355 bp      3,353,585 bp      
+Genome Unique Length          33,762,075 bp     33,804,713 bp     
+Model Fit                     94.5005%          99.5402%          
+Read Error Rate               0.205934%         0.205934%         
