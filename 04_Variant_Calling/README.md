@@ -35,5 +35,5 @@
 - 单一样本无法做群体遗传学分析
 - 后续可设计GWAS方案：100-200菌株群体 + 标准化固氮表型测定
 
-> 完整实验报告见：[`Reports/Exp5_SNP_Detection_and_Analysis.pdf`](../Reports/Exp5_SNP_Detection_and_Analysis.pdf)
+> 完整实验报告见：[Reports/根瘤菌SNP检测与分析.pdf](../reports/5_根瘤菌SNP检测与注释/根瘤菌SNP检测与分析.pdf)
 
