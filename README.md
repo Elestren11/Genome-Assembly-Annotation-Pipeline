@@ -48,4 +48,4 @@
 - `02_Assembly_Comparison/`：三代组装工具系统对比（含参数敏感性分析）
 - `03_Annotation/`：真核与原核基因组注释（含拟南芥失败诊断）
 - `04_Variant_Calling/`：SNP 检测、功能注释与热点基因分析
-- `Reports/`：完整实验报告（PDF），展示每步分析的细节与讨论
+- `reports/`：完整实验报告（PDF），展示每步分析的细节与讨论
