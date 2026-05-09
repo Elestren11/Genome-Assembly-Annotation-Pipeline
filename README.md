@@ -35,7 +35,7 @@
 | 错义突变 | 169 | 19.93% |
 
 ## 🛠 技术栈
-- **语言**：Shell (awk/sed), Python, R
+- **语言**：Shell (awk/sed)， Python（数据处理辅助）， R（统计分析与可视化，ggplot2，DESeq2）
 - **二代组装**：FastQC, Trimmomatic, Jellyfish, GenomeScope, SOAPdenovo2, QUAST
 - **三代组装**：wtdbg2, hifiasm
 - **注释**：RepeatMasker, Augustus, BUSCO, Prokka
@@ -43,7 +43,7 @@
 - **环境**：Conda, Linux 集群调度
 
 ## 📁 仓库结构
-- `00_Quality_Control/`：FastQC 双平台数据质控对比
+- `00_Quality_Control/`：Shell 文本处理 + FastQC 双平台数据质控对比
 - `01_Genome_Assembly/`：基于 k-mer 预评估的二代组装策略优化
 - `02_Assembly_Comparison/`：三代组装工具系统对比（含参数敏感性分析）
 - `03_Annotation/`：真核与原核基因组注释（含拟南芥失败诊断）
