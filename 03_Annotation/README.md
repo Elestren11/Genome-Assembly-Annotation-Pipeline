@@ -27,4 +27,4 @@ epeatMasker（重复序列屏蔽）→ Augustus（基因结构预测）→ BUSCO
 ### 核心反思
 > BUSCO不是走过场。拟南芥注释的“失败”恰恰证明了评估步骤的必要性——没有评估，就不会发现问题。完整的分析能力 = 发现问题 + 诊断原因 + 提出改进方案。
 
-> 完整实验报告见：[`Reports/Exp4_Genome_Annotation.pdf`](../Reports/Exp4_Genome_Annotation.pdf)
+> 完整实验报告见：[Reports/真核生物与原核生物基因组注释.pdf](../reports/4_真核生物与原核生物基因组注释/真核生物与原核生物基因组注释.pdf)
