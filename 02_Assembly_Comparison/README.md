@@ -29,4 +29,4 @@
 2. **工程选型**：wtdbg2在CCS模式下以更低资源消耗达到与hifiasm几乎相同的效果
 3. **参数验证**：看似微小的参数差异可能导致组装完全失败
 
-> 完整实验报告见：[`Reports/Exp3_Assembly_Tool_Comparison.pdf`](../Reports/Exp3_Assembly_Tool_Comparison.pdf)
+> 完整实验报告见：[Reports/组装工具与性能比较.pdf](../reports/3_基因组组装工具性能比较分析/组装工具与性能比较.pdf)
